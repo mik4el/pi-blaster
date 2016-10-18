@@ -18,7 +18,7 @@ PATH=/sbin:/usr/sbin:/bin:/usr/bin
 DESC="Daemon for PWM control of the Raspberry Pi GPIO pins"
 NAME=pi-blaster
 DAEMON=/usr/sbin/$NAME
-DAEMON_ARGS="gpio 2,3,4"
+DAEMON_ARGS=""
 SCRIPTNAME=/etc/init.d/$NAME
 
 # Exit if the package is not installed
